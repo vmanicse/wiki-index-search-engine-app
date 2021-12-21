@@ -1,3 +1,3 @@
-# mani-dev-wikiindex
+# wiki-index-search-engine-app
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/mani-dev-wikiindex)
+A search engine app powered by Wikipedia. This application is built by using React.js framework. 
