@@ -56,7 +56,7 @@ export default function SearchResult({ results, networkErr, errorMsg }) {
       index = Number(e.target.id);
       e.stopPropagation();
       activeBtnStyling(e.target.id);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (Number(e.target.id)) window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     if (
       index < paginatedPageContainer.length &&
